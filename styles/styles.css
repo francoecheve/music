@@ -56,6 +56,7 @@ header {
   font-size: 30px;
   background-image:url(../fondoazul.JPG);
   
+  
 }
 
 table, th, td {
@@ -109,6 +110,19 @@ a {
     justify-content:center;
     justify-items: space-between;
     background-color: rgb(15, 26, 59);
+    background-image: linear-gradient(to bottom, black, blue);
+    
+  }
+
+  .background:hover {
+    height: 40px;
+    
+    background-color: aliceblue;
+  }
+
+  div.animacion {
+    transform: translate(10px, 20px);
+    transform: rotate(5deg);
     
   }
  
@@ -141,3 +155,4 @@ a {
     background-color: lightgoldenrodyellow; 
   }
 }
+
