@@ -1,0 +1,25 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/stylesass.scss styles/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoecheve/music.git"
+  },
+  "author": "Francoecheve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoecheve/music/issues"
+  },
+  "homepage": "https://github.com/francoecheve/music#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
