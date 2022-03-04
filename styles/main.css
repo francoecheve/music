@@ -3,3 +3,40 @@ a {
   font-size: 50px;
   margin: 10px;
   text-decoration: none; }
+
+/*Bucle*/
+.paginas-inicio {
+  background-color: green; }
+
+.paginas-sobremi {
+  background-color: blue; }
+
+.paginas-discografia {
+  background-color: red; }
+
+.paginas-tours {
+  background-color: purple; }
+
+.paginas-contacto {
+  background-color: white; }
+
+.boton, .boton--enviar, .boton--limpiar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black; }
+
+.boton--enviar {
+  background-color: green;
+  color: yellow; }
+
+.boton--limpiar {
+  background-color: red;
+  color: yellow; }
+
+.imagen {
+  height: 300px;
+  width: 300px; }

@@ -5,3 +5,49 @@ $base-font-size:50px;
     margin: 10px;
     text-decoration: none;
   }
+
+  $menu: (/*Declaracion del mapa*/
+  inicio: green,
+  sobremi: blue,
+  discografia: red,
+  tours: purple,
+  contacto: white
+  );
+
+  /*Bucle*/
+  @each $opciones-menu, $color in $menu {
+    .paginas-#{$opciones-menu} {
+      background-color: $color;
+  }
+  
+}
+
+.boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align:center;
+color:black;
+border-radius:20px;
+border: 1px solid black;
+}
+
+.boton--enviar{
+  @extend.boton;
+  background-color: green;
+  color: yellow;
+}
+
+.boton--limpiar{
+  @extend.boton;
+  background-color: red;
+  color: yellow;
+}
+
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+.imagen {
+  @include sizes(300px, 300px);
+}
