@@ -41,10 +41,8 @@ body {
     font-size: 20px;
   }
   
-   iframe{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+   .iframe{
+    display: grid;
     background-color: lightgoldenrodyellow; 
   }
 
@@ -110,6 +108,12 @@ a {
     justify-items: space-between;
     background-color: rgb(15, 26, 59);
     
+  }
+
+  .formulario {
+    display: grid;
+    justify-content: left;
+    gap: 0px;
   }
 
   .navbar-toggler .navbar-toggler-icon {
